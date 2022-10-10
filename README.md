@@ -2,7 +2,7 @@
 A mod focused on bringing new content to the game, adding turrets, factories, units, etc.
 
 
-is being added in this version:
+The mod has:
 
 - 4 Factories
 - 3 Conveyor
