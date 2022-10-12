@@ -1,0 +1,7 @@
+name: Zinc
+type: OreBlock
+itemDrop: zinc
+oreDefault: true
+oreThreshold: 0.800
+oreScale: 25
+variants: 3
