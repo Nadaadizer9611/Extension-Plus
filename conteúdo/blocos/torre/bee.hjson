@@ -1,0 +1,35 @@
+type: ItemTurret
+name: Bee
+description: "a turret that uses spores to launch poisonous shots."
+size: 2
+health: 390
+range: 180
+maxAmmo: 30
+targetGround: true
+targetAir: true
+shots: 4
+spread: 0.50
+alternate: false
+ammoTypes: {
+  spore-pod: {
+    damage: 27
+    speed: 5
+    lifetime: 30
+    reloadMultiplier: 1.0
+    ammoMultiplier: 1.5
+    height: 9
+    width: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    status: poison
+    fromColor: 94FFABFF
+    toColor: 94FFABFF
+  }
+}
+requirements: [
+  copper/270
+  silicon/125
+  component/35
+]
+category: turret
+research: salvo
