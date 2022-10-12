@@ -1,0 +1,27 @@
+type: Battery
+name: Giant Surge Alloy Battery
+description: "a giant battery with greater energy storage capacity"
+health: 1545
+size: 4
+hasPower: true
+hasItems: false
+consumes:{
+	powerBuffered: 120000
+}
+requirements: [
+  lead/1250
+  silicon/540
+  surge-alloy/175
+]
+category: power
+research: {
+  parent: battery-large
+  requirements: [
+    copper/938300
+    lead/173000
+    silicon/71930
+    thorium/84903
+    titanium/50334
+    surge-alloy/17303
+  ]
+}
