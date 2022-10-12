@@ -1,9 +1,0 @@
-name: Component
-description: "this alloy is totally hot, even when it is cooled."
-details: the use of this material will be constant, having it in abundance will be the best choice.
-cost: 3
-hardness: 8
-charge: 0.4
-healthScaling: 2.1
-color: 95706DFF
-research: brass
