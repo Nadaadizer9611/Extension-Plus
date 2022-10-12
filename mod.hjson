@@ -1,0 +1,8 @@
+name: "ex-pl"
+displayName: "Extension Plus"
+author: Nadaadizer9611
+description: "a vanilla extension bringing new itmes, blocks, factories and etc"
+version: "1.1.0"
+minGameVersion: "136"
+dependencies: [ ]
+hidden: false
