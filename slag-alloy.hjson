@@ -1,8 +1,0 @@
-name: Slag Alloy 
-description: "this alloy is totally hot, even when it is cooled."
-cost: 4
-flammability: 1.75
-hardness: 0.50
-explosiveness: 0.35
-color: e09e3a
-research: metaglass
