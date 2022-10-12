@@ -1,0 +1,28 @@
+type: Battery
+name: Colossal Battery
+description: "the colossal battery has a capacity of 500 thousand energy."
+health: 4500
+size: 5
+hasPower: true
+hasItems: false
+consumes:{
+	powerBuffered: 500000
+}
+requirements: [
+  lead/1350
+  silicon/700
+  titanium/450
+  surge-alloy/175
+]
+category: power
+research: {
+  parent: battery-large
+  requirements: [
+    copper/1293938
+    lead/482929
+    silicon/20201
+    thorium/288449
+    titanium/903836
+    surge-alloy/63023
+  ]
+}
