@@ -1,8 +1,0 @@
-name: Zinc 
-description: "a kind of weak but electrifying metal. can be used in the manufacture of brass alloy."
-cost: 2
-hardness: 3
-charge: 0.9
-healthScaling: 0.5
-color: 95706DFF
-research: titanium
