@@ -1,0 +1,24 @@
+name: big Pneumatic Drill
+description: It is the "ultimate" drill in the pneumatic category, being much larger than the normal one, but also much faster. 
+type: Drill
+health: 660
+size: 4
+tier: 3
+drillTime: 600
+itemCapacity: 20,
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.05
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  copper/85
+  lead/60
+  graphite/55
+  silicon/35
+]
+category: production
+research: medium-pneumati-drill

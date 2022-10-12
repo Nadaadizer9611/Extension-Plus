@@ -1,0 +1,7 @@
+name: Phase Compound
+description: "we can say it's a bunch of compressed phase fabric."
+details: with this material, it will be possible to make better solar panels, some walls and others.
+cost: 8
+radioactivity: 5.7
+color: F5BE9AFF
+research: phase-fabric

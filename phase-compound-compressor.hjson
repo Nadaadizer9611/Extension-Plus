@@ -1,0 +1,38 @@
+type: AttributeCrafter
+name: Phase Compound Compressor
+description: "The factory compresses the phase fabric bunch to make phase composite."
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 690
+craftEffect: smeltsmoke
+consumes: {
+  power: 4.7
+  items: {
+    items: [
+    phase-fabric/5
+    ]
+  }
+}
+requirements: [
+    copper/670
+    silicon/430
+    titanium/350
+    component/180
+]
+category: crafting
+research: {
+  parent: silicon-smelter
+  requirements: [
+    copper/170543
+    lead/83729
+    silicon/80443
+    graphite/31934
+    titanium/90223
+    phase-fabric/27473
+    brass-alloy/13734
+    component/7294
+  ]
+}
+outputItem: phase-compound/2

@@ -1,0 +1,16 @@
+type: SolarGenerator
+name: Giant Phase Compound Solar Panel Mark 2
+description: "A solar panel made with phase compound can produce more energy than normal ones."
+size: 4
+health: 2200
+hasPower: true
+powerProduction: 5
+requirements: [
+lead/720
+silicon/750
+titanium/950
+phase-compound/500
+component/1300
+]
+category: power
+research: solar-panel

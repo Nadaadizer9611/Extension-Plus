@@ -1,0 +1,41 @@
+name: "Slag Alloy Stack Conveyor"
+description: "An improvement on the slag league debut, being able to group up to 25 items in a single slot."
+requirements: [
+slag-alloy/5
+silicon/3
+titanium/4
+lead/6
+copper/6
+component/1
+]
+category: distribution
+health: 235
+itemCapacity: 25
+loadEffect: {
+type: ParticleEffect
+particles: 4
+sizeFrom: 3
+sizeTo: 0
+lifetime: 20
+length: 1
+cone: 80
+colorFrom: 8ca4f5
+colorTo: 6a75c4
+region: ex-pl-rhombus
+}
+unloadEffect: {
+type: ParticleEffect
+particles: 4
+sizeFrom: 3
+sizeTo: 0
+lifetime: 20
+length: 1
+cone: 80
+colorFrom: 8ca4f5
+colorTo: 6a75c4
+region: ex-pl-rhombus
+}
+research: {
+parent: slag-alloy-conveyor
+objectives: [plastanium-conveyor]
+}

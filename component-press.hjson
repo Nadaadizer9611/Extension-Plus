@@ -1,0 +1,42 @@
+type: AttributeCrafter
+name: Component Press
+description: "this factory presses scrap, lead, zinc and brass to make the component, a very resistant item and widely used for the manufacture of drones and towers."
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 60
+craftTime: 390
+craftEffect: smeltsmoke
+consumes: {
+  power: 10
+  items: {
+    items: [
+    lead/7
+    scrap/10
+    zinc/5
+    brass-alloy/2
+    ]
+  }
+}
+requirements: [
+    copper/325
+    lead/270
+    silicon/215
+    zinc/135
+    titanium/165
+    brass-alloy/95
+]
+category: crafting
+research: {
+  parent: silicon-smelter
+  requirements: [
+    copper/82840
+    lead/123994
+    silicon/47282
+    graphite/19383
+    titanium/48229
+    zinc/19247
+    brass-alloy/13932
+  ]
+}
+outputItem: component/2

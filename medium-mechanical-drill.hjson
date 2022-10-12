@@ -1,0 +1,22 @@
+name: Medium Mechanical Drill
+description: Being a mechanical drill, it is slightly larger than normal, can mine more ores and has more mining speed.
+type: Drill
+health: 360
+size: 3
+tier: 2
+drillTime: 900
+itemCapacity: 15,
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.03
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  copper/35
+  lead/25
+]
+category: production
+research: small-mechanical-drill
