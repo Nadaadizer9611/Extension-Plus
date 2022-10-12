@@ -1,0 +1,41 @@
+type: AttributeCrafter
+name: Slag Compressor
+description: "This factory makes slag alloy using slag fluid and some scrap, but it needs some time to cool the alloy."
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 30
+liquidCapacity:60
+craftTime: 555
+craftEffect: smeltsmoke
+consumes: {
+  power: 5
+  liquid: slag/0.5
+  items: {
+    items: [
+    scrap/15
+    ]
+  }
+}
+requirements: [
+    copper/535
+    lead/350
+    silicon/240
+    metaglass/450
+    titanium/150
+    component/75
+]
+category: crafting
+research: {
+  parent: rotary-pump
+  requirements: [
+    copper/35000
+    lead/62500
+    silicon/8500
+    metaglass/55000
+    titanium/12000
+    component/3194
+  ]
+}
+outputItem: slag-alloy/4
