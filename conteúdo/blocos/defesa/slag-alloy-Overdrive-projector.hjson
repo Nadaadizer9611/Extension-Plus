@@ -1,0 +1,45 @@
+type: OverdriveProjector
+name: "Slag Alloy Overdrive Projector"
+description: "A high efficiency projector with low range and high cost. It's not efficient for conveyor, but for factories, drills and other things it's efficient."
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 15
+liquidCapacity:10
+consumes: {
+power: 15
+liquid: slag/0.5
+items: {
+items: [
+slag-alloy/3
+phase-fabric/3
+]
+}
+}
+range: 100
+useTime: 150
+speedBoost: 4.3
+hasBoost: false
+requirements:[
+    copper/1400
+    silicon/1130
+    titanium/890
+    plastanium/600
+    slag-alloy/450
+    component/175
+]
+research: {
+  parent: overdrive-dome
+  requirements: [
+    copper/82840
+    lead/19373
+    silicon/47282
+    graphite/19383
+    titanium/48229
+    plastanium/25838
+    slag-alloy/16283
+    component/6423
+  ]
+}
+category: effect
