@@ -1,8 +1,0 @@
-name: Brass Alloy 
-description: "A more or less electrical alloy, made with copper and zinc."
-cost: 4
-hardness: 4
-charge: 1.8
-healthScaling: 1.7
-color: E9B115FF
-research: zinc
