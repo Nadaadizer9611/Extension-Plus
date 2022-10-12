@@ -1,0 +1,36 @@
+category: production
+name: Slag Pneumatic Drill
+description: a drill bit made from slag alloy uses a lot of energy but is very efficient.
+type: Drill
+health: 750
+size: 3
+tier: 4
+drillTime: 130
+itemCapacity: 25
+liquidCapacity: 25
+consumes: {
+power: 9
+  liquid: {
+    liquid: water
+    amount: 0.15
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  copper/275
+  lead/235
+  silicon/175
+  slag-alloy/125
+  component/75
+]
+research: {
+  parent: laser-drill
+  requirements: [
+    copper/32044
+    lead/48234
+    silicon/62944
+    metaglass/55000
+    titanium/12000
+  ]
+}

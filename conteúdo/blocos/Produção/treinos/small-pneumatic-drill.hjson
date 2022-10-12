@@ -1,0 +1,21 @@
+name: Small Pneumatic Drill
+description: a small pneumatic drill, which can fit anywhere.
+type: Drill
+health: 40
+tier: 3
+drillTime: 300
+itemCapacity: 3,
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.01
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  copper/5
+  graphite/3
+]
+category: production
+research: pneumatic-drill
