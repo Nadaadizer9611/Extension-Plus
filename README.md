@@ -14,7 +14,7 @@ The mod has:
 - 1 Turret
 
 
-# changelog 1.0.0
+# changelog 1.0.0 (14/10/22)
 
 
 - 4 Factories: Brass Mixer, Component Press, Phase Compound Compressor and Slag Compressor
