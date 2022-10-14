@@ -17,11 +17,45 @@ The mod has:
 # changelog 1.0.0
 
 
-- 4 Factories: Brass Mixer, Component Press, Phase Compound Compressor and Slag Compressor.
-- 3 Conveyor: Energized Plastanium Stack Conveyor, Slag Alloy Conveyor and Slag Alloy Stack Conveyor.
-- 4 Solar Panel: Giant Solar Panel, Giant Solar Panel Mark 2, Giant Phase Composite Solar Panel and Giant Phase Composite Solar Panel Mark 2.
-- 3 Battery: Giant Battery, Giant Surge Alloy Battery and Colossal Battery.
-- 6 Drills: Small Mechanical Drill, Small Pneumatic Drill, Medium Mechanical Drill, Medium Pneumatic Drill, Big Pneumatic Drill and Slag Mechanical Drill.
-- 1 Overdrive Projector: Slag Alloy Overdrive Projector.
-- 5 Itens: Brass, Zinc, Component, Slag Alloy and Phase Compound.
-- 1 Turret: Bee
+- 4 Factories:
+> Brass Mixer
+> Component Press
+> Phase Compound Compressor
+> Slag Compressor
+
+- 3 Conveyor:
+> Energized Plastanium Stack Conveyor
+> Slag Alloy Conveyor
+> Slag Alloy Stack Conveyor
+
+- 4 Solar Panel:
+> Giant Solar Panel
+> Giant Solar Panel Mark 2
+> Giant Phase Composite Solar Panel
+> Giant Phase Composite Solar Panel Mark 2
+
+- 3 Battery:
+> Giant Battery
+> Giant Surge Alloy Battery
+> Colossal Battery
+
+- 6 Drills:
+> Small Mechanical Drill
+> Small Pneumatic Drill
+> Medium Mechanical Drill
+> Medium Pneumatic Drill
+> Big Pneumatic Drill
+> Slag Mechanical Drill
+
+- 1 Overdrive Projector:
+> Slag Alloy Overdrive Projector
+
+- 5 Itens:
+> Brass
+> Zinc
+> Component
+> Slag Alloy
+> Phase Compound
+
+- 1 Turret:
+> Bee
