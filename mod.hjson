@@ -1,8 +1,9 @@
-name: "ex-pl"
 displayName: "Extension Plus"
+name: "ex-pl"
 author: Nadaadizer9611
+main: "Nadaadizer9611/Extension-Plus"
 description: "a vanilla extension bringing new itmes, blocks, factories and etc"
-version: "1.1.0"
+version: "1.0.0"
 minGameVersion: "136"
-dependencies: [ ]
 hidden: false
+java: true
