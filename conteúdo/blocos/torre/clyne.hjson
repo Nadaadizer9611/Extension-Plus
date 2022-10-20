@@ -1,0 +1,68 @@
+type: ItemTurret
+name: clyne
+description: "a turret that has two powerful cannons that shoot very fast."
+size: 3
+health: 1350
+reload: 20
+range: 245
+maxAmmo: 30
+targetGround: true
+targetAir: true
+alternate: true
+shoot: {
+type: ShootAlternate
+shots: 4
+barrels: 2
+spread: 14
+shotDelay: 5
+}
+ammoTypes: {
+  plastanium: {
+    damage: 49
+    speed: 8
+    lifetime: 30
+    reloadMultiplier: 2.5
+    ammoMultiplier: 1.5
+    height: 13
+    width: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    fromColor: 94FFABFF
+    toColor: 94FFABFF
+  }
+  surge-alloy: {
+    damage: 147
+    speed: 13
+    lifetime: 45
+    reloadMultiplier: 4.9
+    ammoMultiplier: 2.1
+    height: 15
+    width: 12
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    fromColor: 94FFABFF
+    toColor: 94FFABFF
+  }
+  slag-alloy: {
+    damage: 79
+    speed: 10
+    lifetime: 35
+    reloadMultiplier: 2.9
+    ammoMultiplier: 1.7
+    height: 13
+    width: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    fromColor: 94FFABFF
+    toColor: 94FFABFF
+  }
+}
+requirements: [
+silicon/350
+titanium/200
+plastanium/150
+component/100
+]
+category: turret
+research: cyclone
+researchCostMultiplier: 0.5
