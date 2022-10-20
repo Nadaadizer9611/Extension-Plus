@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: Advanced Blast Mixer
+description: "An advanced factory which manufactures blast compound in large quantities."
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 50
+liquidCapacity: 50
+craftTime: 270
+craftEffect: smeltsmoke
+consumes: {
+power: 5.6
+liquid:{
+liquid: water
+amount: 0.2
+ }
+ items: {
+ items: [
+ coal/8
+ sand/8
+ pyratite/8
+ ]
+}
+}
+requirements: [
+    copper/350
+    lead/300
+    silicon/250
+    titanium/200
+    thorium/150
+    component/100
+]
+category: crafting
+research: {
+parent: blast-mixer
+researchCostMultiplier: 1.7
+}
+outputItem: blast-compound/7

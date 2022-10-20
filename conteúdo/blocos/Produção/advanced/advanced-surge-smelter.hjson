@@ -1,0 +1,58 @@
+type: AttributeCrafter
+name: Advanced Surge Smelter
+description: "an advanced factory which produce surge-alloy in large quantities."
+size: 4
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 30
+liquidCapacity: 30
+craftTime: 205
+craftEffect: smeltsmoke
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: slag
+}
+{
+type: DrawRegion
+suffix: "-top"
+}
+{
+type: DrawDefault
+}
+]
+}
+consumes: {
+  power: 6.8
+  liquid: slag/0.2
+  items: {
+    items: [
+    copper/10
+    lead/8
+    silicon/6
+    titanium/4
+    ]
+  }
+}
+requirements: [
+    copper/450
+    lead/300
+    silicon/240
+    metaglass/135
+    titanium/270
+    thorium/50
+    component/150
+]
+category: crafting
+research: {
+parent: surge-smelter
+researchCostMultiplier: 1.0
+}
+outputItem: surge-alloy/4

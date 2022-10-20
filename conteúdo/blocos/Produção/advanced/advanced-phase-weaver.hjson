@@ -1,0 +1,46 @@
+type: GenericCrafter
+name: Advanced Phase Weaver
+description: "An advanced factory which manufactures phase fabric in large quantities."
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: false
+itemCapacity: 100
+craftTime: 313
+craftEffect: smeltsmoke
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: drawRegion,
+suffix: -bottom  
+},
+{
+type: DrawWeave
+},
+{
+type: DrawDefault
+}
+]
+}
+consumes: {
+  power: 9.3
+  items: {
+    items: [
+    thorium/90
+    sand/60
+    ]
+  }
+}
+requirements: [
+    copper/470
+    lead/450
+    thorium/300
+    component/190
+]
+category: crafting
+research: {
+parent: phase-weaver
+researchCostMultiplier: 1.4
+}
+outputItem: phase-fabric/5

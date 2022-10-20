@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Advanced Coal Centrifuge
+description: "An advanced factory which manufactures coal in large quantities."
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 50
+liquidCapacity: 50
+craftTime: 241
+craftEffect: smeltsmoke
+consumes: {
+power: 6.3
+liquid:{
+liquid:oil
+amount: 1
+ }
+ items: {
+ items: [
+ spore-pod/5
+ ]
+}
+}
+requirements: [
+    copper/350
+    lead/270
+    graphite/245
+    titanium/190
+    thorium/150
+    component/100
+]
+category: crafting
+research: {
+parent: coal-centrifuge
+researchCostMultiplier: 1.7
+}
+outputItem: coal/12

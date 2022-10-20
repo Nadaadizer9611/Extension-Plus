@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: Advanced Pyratite Mixer
+description: "An advanced factory which manufactures pyratite compound in large quantities."
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 50
+liquidCapacity: 50
+craftTime: 230
+craftEffect: smeltsmoke
+consumes: {
+power: 5.6
+liquid:{
+liquid: water
+amount: 0.35
+ }
+ items: {
+ items: [
+ coal/12
+ sand/12
+ silicon/15
+ ]
+}
+}
+requirements: [
+    copper/375
+    lead/350
+    graphite/290
+    silicon/245
+    titanium/190
+    component/100
+]
+category: crafting
+research: {
+parent: pyratite-mixer
+researchCostMultiplier: 1.7
+}
+outputItem: pyratite/9
