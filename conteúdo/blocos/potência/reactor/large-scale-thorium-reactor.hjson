@@ -1,0 +1,39 @@
+type: NuclearReactor
+name: "Large Scale Thorium Reactor "
+description: "This is a large scale thorium reactor, it produces 8x more energy than the thorium reactor, but the material consumption is constant. BEWARE of this reactor, by using 8x more resources than the normal reactor, this reactor tends to have a catastrophic explosion, being possible to destroy almost an entire small sector."
+category: power
+size: 5
+health: 4360
+itemCapacity: 80
+liquidCapacity: 180
+explosionDamage: 9000
+explosionRadius: 300
+itemDuration: 150
+powerProduction: 120
+fuelItem: thorium
+lightColor: FFF3D6FF
+smokeThreshold: 0.9
+requirements: [
+  lead/1450
+  silicon/1200
+  titanium/900
+  thorium/780
+  surge-alloy/670
+  metaglass/450
+  component/1400
+]
+
+consumes: {
+  liquid: cryofluid/3.0
+  items: {
+    items: [
+      thorium/8
+    ]
+  }
+}
+
+research: {
+parent: big-surge-reactor
+researchCostMultiplier: 11.4
+}
+

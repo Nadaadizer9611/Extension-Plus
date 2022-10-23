@@ -1,0 +1,39 @@
+type: NuclearReactor
+name: "Big Surge Reactor "
+description: "this is a big reactor, it produces more energy than thorium reactor, but it spends more resources like surge alloy. BEWARE of this reactor explosion."
+category: power
+size: 4
+health: 5200
+itemCapacity: 30
+liquidCapacity: 90
+explosionDamage: 3000
+explosionRadius: 120
+itemDuration: 480
+powerProduction: 40
+fuelItem: surge-alloy
+lightColor: FFF3D6FF
+smokeThreshold: 0.9
+requirements: [
+  lead/1450
+  silicon/1200
+  titanium/900
+  thorium/780
+  surge-alloy/670
+  metaglass/450
+  component/1400
+]
+
+consumes: {
+  liquid: cryofluid/1
+  items: {
+    items: [
+      surge-alloy/3
+    ]
+  }
+}
+
+research: {
+parent: advanced-phase-fabric-reactor
+researchCostMultiplier: 11.4
+}
+

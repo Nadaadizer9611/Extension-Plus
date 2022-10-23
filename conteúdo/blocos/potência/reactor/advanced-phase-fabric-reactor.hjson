@@ -1,0 +1,40 @@
+type: Reactor
+name: "Advanced Phase Fabric Reactor "
+description: "This is an advanced reactor, it uses more material to produce energy. Material usage is slow, more efficient for when you don't have much of the material."
+details: Advanced Phase Fabric Reactor uses the slag liquid, as the slag helps release electrical rays from phase fabric, making the Reactor generate power.
+category: power
+size: 4
+health: 3260
+itemCapacity: 30
+liquidCapacity: 30
+itemDuration: 570
+explosionDamage: 0
+explosionRadius: 0
+powerProduction: 25
+fuelItem: phase-fabric
+lightColor: FFF3D6FF
+smokeThreshold: 0.9
+requirements: [
+  lead/950
+  silicon/920
+  titanium/860
+  thorium/680
+  phase-fabric/450
+  metaglass/350
+  component/1200
+]
+
+consumes: {
+  liquid: slag/0.10
+  items: {
+    items: [
+      phase-fabric/2
+    ]
+  }
+}
+
+research: {
+parent: thorium-reactor
+researchCostMultiplier: 6.7
+}
+
