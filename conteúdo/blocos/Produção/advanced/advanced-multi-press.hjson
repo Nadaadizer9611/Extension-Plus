@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: Advanced Multi Press
+description: "An advanced factory which manufactures graphite in large quantities."
+size: 4
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 60
+liquidCapacity: 90
+craftTime: 250
+craftEffect: smeltsmoke
+consumes: {
+power: 6.0
+liquid:{
+liquid: oil
+amount: 1.4
+ }
+ items: {
+ items: [
+ coal/9
+ pyratite/4
+ ]
+}
+}
+requirements: [
+    copper/460
+    lead/425
+    graphite/380
+    silicon/340
+    titanium/290
+    component/200
+]
+category: crafting
+research: {
+parent: multi-press
+researchCostMultiplier: 3.4
+}
+outputItem: graphite/15

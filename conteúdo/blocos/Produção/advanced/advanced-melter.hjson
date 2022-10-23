@@ -1,0 +1,49 @@
+type: GenericCrafter
+name: Advanced Melter
+description: "An advanced factory which manufactures slag in large quantities."
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 45
+liquidCapacity: 120
+craftTime: 260
+craftEffect: smeltsmoke
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: slag
+}
+{
+type: DrawDefault
+}
+]
+}
+consumes: {
+power: 5.0
+ items: {
+ items: [
+ scrap/45
+ ]
+}
+}
+requirements: [
+    copper/570
+    lead/525
+    silicon/440
+    titanium/390
+    thorium/330
+    component/300
+]
+category: crafting
+research: {
+parent: melter
+researchCostMultiplier: 3.4
+}
+outputLiquid: slag/1.8

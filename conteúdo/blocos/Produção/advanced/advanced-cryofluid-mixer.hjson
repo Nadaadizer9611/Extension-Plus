@@ -1,0 +1,57 @@
+type: GenericCrafter
+name: Advanced Cryofluid Mixer
+description: "An advanced factory which manufactures cryofluid in large quantities."
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 45
+liquidCapacity: 120
+craftTime: 240
+craftEffect: smeltsmoke
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+drawLiquid: cryofluid
+}
+{
+type: DrawRegion
+suffix: "-top"
+}
+{
+type: DrawDefault
+}
+]
+}
+consumes: {
+power: 5.0
+liquid:{
+liquid: water
+amount: 1.5
+ }
+ items: {
+ items: [
+ titanium/20
+ ]
+}
+}
+requirements: [
+    copper/570
+    silicon/525
+    metaglass/440
+    titanium/390
+    thorium/330
+    component/300
+]
+category: crafting
+research: {
+parent: cryofluid-mixer
+researchCostMultiplier: 3.4
+}
+outputLiquid: cryofluid/1.5

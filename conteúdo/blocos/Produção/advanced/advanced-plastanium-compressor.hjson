@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Advanced Plastanium Compressor
+description: "An advanced factory which manufactures plastanium in large quantities."
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 60
+liquidCapacity: 90
+craftTime: 213
+craftEffect: smeltsmoke
+consumes: {
+power: 6.3
+liquid:{
+liquid: oil
+amount: 1.8
+ }
+ items: {
+ items: [
+ titanium/20
+ ]
+}
+}
+requirements: [
+    copper/670
+    silicon/645
+    titanium/550
+    plastanium/520
+    component/350
+]
+category: crafting
+research: {
+parent: plastanium-Compressor
+researchCostMultiplier: 5.0
+}
+outputItem: plastanium/12

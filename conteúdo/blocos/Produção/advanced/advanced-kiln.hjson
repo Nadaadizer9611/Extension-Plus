@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Advanced Kiln
+description: "An advanced factory which manufactures metaglass in large quantities."
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: false
+itemCapacity: 30
+craftTime: 189
+craftEffect: smeltsmoke
+consumes: {
+power: 4.5
+ items: {
+ items: [
+ lead/5
+ sand/5
+ pyratite/5
+ ]
+}
+}
+requirements: [
+    copper/570
+    lead/525
+    silicon/440
+    titanium/390
+    metaglass/330
+    component/300
+]
+category: crafting
+research: {
+parent: kilm
+researchCostMultiplier: 3.4
+}
+outputItem: metaglass/10
