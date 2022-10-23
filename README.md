@@ -4,18 +4,19 @@ A mod focused on bringing new content to the game, adding turrets, factories, un
 
 The mod has:
 
-- 1p Factories
+- 15 Factories
 - 3 Conveyor
 - 4 Solar Panel
 - 3 Battery
+- 3 Reactors
 - 6 Drills
 - 1 Overdrive Projector
 - 5 Itens
 - 2 Turret
 
 
-# changelog 1.0.1 (20/10/22)
+# changelog 1.0.2 (23/10/22)
 
 
-- 6 Factories: advanced centrifuge, advanced blast mixer, advanced pyratite mixer, advanced surge smelter, advanced silicon crucible and advanced phase weaver 
-- 1 Turret: Clyne
+- 5 Factories: advanced kiln, advanced cryofluid mixer, advanced multi press, advanced melter and advanced plastanium compressor. 
+- 3 Reactors: large scale thorium reactor, big surge reactor and advanced phase fabric reactor.
