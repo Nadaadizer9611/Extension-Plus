@@ -6,4 +6,3 @@ description: "a vanilla extension bringing new itmes, blocks, factories and etc"
 version: "1.0.0"
 minGameVersion: "136"
 hidden: false
-java: true
